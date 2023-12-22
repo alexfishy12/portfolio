@@ -17,7 +17,7 @@
 ## Roadmap
 ### Outline upcoming features or areas for future improvements.
 ## Contact
-### Your Name - Your Email
+### Alexander Fisher - alexfisher0330@gmail.com
 ### Project Link: https://github.com/yourusername/yourprojectname
 ## Acknowledgements
 ### List any other contributors, third-party libraries, or resources used in the project.
