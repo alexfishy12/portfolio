@@ -62,7 +62,8 @@ Highlight specific skills or concepts you learned or improved upon while working
 *State the license under which your project is available.*
 
 ## Contact
-*Your contact information or links to your professional profiles like LinkedIn.*
+- Alexander J. Fisher - alexfisher0330@gmail.com
+- LinkedIn - www.linkedin.com/in/alexjfisher
 
 ## Acknowledgments
 *Credits to individuals or resources that helped you during the project.*
