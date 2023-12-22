@@ -4,21 +4,16 @@
 <summary>Table of Contents</summary>
 
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Visuals](#visuals)
-4. [Technologies](#technologies)
-5. [What I Learned](#what-i-learned)
-6. [Setup and Installation](#setup-and-installation)
-7. [Usage](#usage)
-8. [Code Examples](#code-examples)
-9. [How to Contribute](#how-to-contribute)
-10. [License](#license)
-11. [Contact](#contact)
-12. [Acknowledgments](#acknowledgments)
+2. [Visuals](#visuals)
+3. [Technologies](#technologies)
+4. [What I Learned](#what-i-learned)
+5. [Setup and Installation](#setup-and-installation)
+6. [License](#license)
+7. [Contact](#contact)
 
 </details>
 
-## Introduction
+## Summary
 A website portfolio to show off my skills through various projects I've done both in an academic setting and in my own free time.
 
 ## Visuals
@@ -34,27 +29,14 @@ A website portfolio to show off my skills through various projects I've done bot
 - **SSL Certification**: Registering a website with an SSL to obtain secure communication through HTTPS.
 
 ## Setup and Installation
-*Provide a clear, step-by-step guide to set up the project locally.*
-1. Clone the repo: `git clone [URL]`
-2. Install dependencies: `[Example Command]`
-3. Additional steps...
-
-## Usage
-*Guide on how to use the project, include example commands or scripts.*
-
-## Code Examples
-*Show small, but significant snippets of code from your project.*
-
-## How to Contribute
-*Encourage contributions and provide guidelines for how others can help.*
+1. Clone the repo: `git clone https://github.com/alexfishy12/portfolio.git`
+2. Use a localhosting tool such as XAMPP or NGINX to host locally and run the website on the browser.
 
 ## License
 *State the license under which your project is available.*
 
 ## Contact
-*Your contact information or links to your professional profiles like LinkedIn.*
-
-## Acknowledgments
-*Credits to individuals or resources that helped you during the project.*
+- Alexander J. Fisher - alexfisher0330@gmail.com
+- LinkedIn - www.linkedin.com/in/alexjfisher
 
 ---
