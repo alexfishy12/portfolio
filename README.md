@@ -36,7 +36,8 @@ A website portfolio to show off my skills through various projects I've done bot
 *State the license under which your project is available.*
 
 ## Contact
-- Alexander J. Fisher - alexfisher0330@gmail.com
-- LinkedIn - www.linkedin.com/in/alexjfisher
+- Alexander J. Fisher
+  - **Email**: alexfisher0330@gmail.com
+  - **LinkedIn**: www.linkedin.com/in/alexjfisher
 
 ---
