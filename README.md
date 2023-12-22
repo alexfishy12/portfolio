@@ -3,7 +3,7 @@
 <details>
 <summary>Table of Contents</summary>
 
-1. [Introduction](#introduction)
+1. [Summary](#Summary)
 2. [Visuals](#visuals)
 3. [Technologies](#technologies)
 4. [What I Learned](#what-i-learned)
