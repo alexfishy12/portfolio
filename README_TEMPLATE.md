@@ -1,6 +1,7 @@
 # [Your Project's Name]
 
-## Table of Contents
+<details>
+<summary>Table of Contents</summary>
 1. [Summary](#summary)
 2. [Features](#features)
 3. [Visuals](#visuals)
@@ -13,6 +14,7 @@
 10. [License](#license)
 11. [Contact](#contact)
 12. [Acknowledgments](#acknowledgments)
+</details>
 
 ## Summary
 *Quickly introduce what your project does and its purpose. Engage the reader's interest.*
