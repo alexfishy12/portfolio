@@ -1,5 +1,19 @@
 # [Your Project's Name]
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Visuals](#visuals)
+4. [Technologies](#technologies)
+5. [What I Learned](#what-i-learned)
+6. [Setup and Installation](#setup-and-installation)
+7. [Usage](#usage)
+8. [Code Examples](#code-examples)
+9. [How to Contribute](#how-to-contribute)
+10. [License](#license)
+11. [Contact](#contact)
+12. [Acknowledgments](#acknowledgments)
+
 ## Introduction
 *Quickly introduce what your project does and its purpose. Engage the reader's interest.*
 
