@@ -4,8 +4,259 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex J. Fisher's Portfolio</title>
+
+    <!-- JS Libraries -->
+    <script src="_libraries/bootstrap/bootstrap.min.js"></script>
+    <script src="_libraries/jquery-3.6.0.min.js"></script>
+    <script src="_js/index.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="_libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
-    Hello world! This is my portfolio website!
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center">
+            <div class="col text-center">
+                <div id="main-section" class="row" style="margin-top:20%">
+                    <div class="col d-flex justify-content-center">
+                        <img class="profile_picture" src="./_assets/photo_id.jpg" alt ="Portrait of me">
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center">
+            
+                        <div class="text-center">
+                            <!-- Your content here -->
+                            <small class="">Hi, my name is<br><br></small>
+                            <h1 class="">Alexander J. Fisher</h1>
+                            <small>Web dev, database management, machine learning, game dev</small>
+                
+                            <br><br>
+                           
+                            <div id="icon-matrix" class="container">
+                                <div class="row g-0 text-center">  <!-- Added text-center for alignment -->
+                                    <div class="col">
+                                        <a href="#" id="resume-link" class="link"> 
+                                            <i class="fas fa-portrait fa-3x"></i>
+                                            <div class="icon-title">Resume</div> <!-- Clickable title -->
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#" id="projects-link" class="link"> 
+                                            <i class="fas fa-archive fa-3x"></i>
+                                            <div class="icon-title">Projects</div> <!-- Clickable title -->
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://github.com/alexfishy12" class="link" target="_blank">
+                                            <i class="fab fa-github fa-3x"></i>
+                                            <div class="icon-title">GitHub</div> <!-- Clickable title -->
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://www.linkedin.com/in/alexjfisher" class="link" target="_blank">
+                                            <i class="fab fa-linkedin fa-3x"></i>
+                                            <div class="icon-title">LinkedIn</div> <!-- Clickable title -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <!-- Resume Section -->
+                <div id="resume-section" style="">
+                    <h3>Resume</h3><br>
+                    <div id="resume-content"  class="content-section text-start">
+                        <!-- Resume content here -->
+                        <h2>About me<hr></h2>
+                        <p>I began programming for the first time in 2019 when I was a freshman in college, and I quickly fell in love with it. As a child, I grew up using the computer on a daily basis, and I continue to find it fascinating while learning how the applications I grew up with are built.</p>
+                        <p>My professional experience in the field has been accumulated while working for <a href="https://idcare.com/" target="_blank" rel="noopener noreferrer">ID Care</a> both as an IT and Facilities Systems Analyst (2024-Present) and as a Microsoft Power Platforms Developer (2022-2024). I have also accumulated 
+                            experience while working at <a href="https://www.kean.edu/" target="_blank" rel="noopener noreferrer">Kean University</a> as a Coding Tutor (2021-2023).
+                        </p>
+                        <p>My academic experience in the field has been accumulated over the course of a 5-year B.S., M.S. program at Kean University, during which I developed many projects. I decided to go to Kean University for my education because I was offered a full academic scholarship to go there.</p>
+                        <p>My personal experience in the field has been accumulated while developing different hobby projects, like this portfolio and several video games.</p>
+                        <p>By working with the aforementioned company and University, I have developed many fundamental skills necessary to build efficient, working software.</p>
+                        <p>I thoroughly enjoy learning how to correctly build systems to ensure scalability, security, and user-friendliness. I am a passion-driven programmer, and I keep up to date with the news of cutting-edge technology. I like to take my own free time to tinker with anything newly available, like ChatGPT and other machine learning software. I also like to combine my other passions with programming, like music production and gaming.</p>
+                        <p>A personal/professional goal of mine is to continue growing intellectually, and to achieve this, I am seeking to work with a team that is made up of programmers as passionate as I am about their work.</p>
+                        <h2>Skills<hr></h2>
+                        <h3>Programming</h3>
+                        <p>Over the past four years, I have completed many projects both academic and personal in a lot of different coding languages, many of which were full-stack applications. I am most comfortable with PHP, JavaScript, SQL, and Python.</p>
+                        <ul>
+                            <li><strong>PHP.</strong> MySQLi</li>
+                            <li><strong>JavaScript.</strong> Node.js, jQuery, AJAX, Google Maps API, Google Charts API, D3.js</li>
+                            <li><strong>Database.</strong> MySQL, MariaDB, MongoDB</li>
+                            <li><strong>Python.</strong> TensorFlow, PyTorch, SciKit Learn, Flask</li>
+                            <li><strong>C#.</strong> Unity, UnityEngine, UnityEditor</li>
+                            <li><strong>C.</strong> OpenMP, MPI, CUDA (High Performance Computing tasks)</li>
+                            <li><strong>Templating.</strong> HTML, CSS, Bootstrap</li>
+                            <li><strong>GDScript.</strong></li>
+                            <li><strong>Java.</strong> </li>
+                        </ul>
+                        <h3>Technologies</h3>
+                        <p>Along with programming languages, I've also learned how to build software using supplemental technologies:</p>
+                        <ul>
+                            <li><strong>IDEs.</strong> VSCode, Eclipse, Jupyter Notebook</li>
+                            <li><strong>Virtualization.</strong> Docker, venv</li>
+                            <li><strong>Package Management.</strong> PIP, Conda, NPM</li>
+                            <li><strong>Version Control.</strong> GitHub Desktop</li>
+                            <li><strong>Remote Access.</strong> PuTTY, FileZilla, SSH</li>
+                            <li><strong>Automated testing.</strong> Snyk</li>
+                            <li><strong>CI/CD.</strong> GitHub Workflows</li>
+                            <li><strong>Web Servers.</strong> Apache, NGINX</li>
+                            <li><strong>Cloud Infrastructure.</strong> Digital Ocean, AWS, Google Cloud Platform, Heroku</li>
+                            <li><strong>Microsoft Power Platform.</strong> Sharepoint Lists, PowerAutomate, PowerApps, PowerBI</li>
+                            <li><strong>Game Engines.</strong> Godot, Unreal Engine, Unity</li>
+                            <li><strong>Art Software.</strong> Aseprite, Blender</li>
+                            <li><strong>Video Editing.</strong> Davinci Resolve</li>
+                            <li><strong>Audio Editing/Music Production.</strong> Audacity, FL Studio, Ableton, Reaper</li>
+                        </ul>
+                        <h3>Documentation</h3>
+                        <p>My graduate capstone class at Kean University mandated that we did thorough documentation for our software project developed using DevOps, including but not limited to the following documents:</p>
+                        <ul>
+                            <li>project management plan</li>
+                            <li>user stories</li>
+                            <li>software design document</li>
+                            <ul>
+                                <li>ER diagrams</li>
+                                <li>Use case diagrams</li>
+                                <li>Physical diagrams</li>
+                            </ul>
+                            <li>acceptance test cases</li>
+                        </ul>
+                        <p>For this same project, I was the most familiar with GitHub version control out of my team members, so I proactively designed a GitHub tutorial document for them.</p>
+                        <h3>Operating Systems and Virtualization</h3>
+                        <p>I have built cloud-hosted applications that run in Docker containers (see Projects).</p>
+                        <p>I have worked extensively with both Microsoft Windows and Unix/Linux/Mac based systems, both clients and servers.</p>
+                        <h3>Automation</h3>
+                        <p>I have experience integrating GitHub Workflows with cloud-hosted applications on Microsoft Azure and Heroku.</p>
+                        <h2>Experience<hr></h2>
+                        <h3>Infectious Disease Care, Hillsborough, NJ - <span class="text-black-50">IT and Facilities Systems Analyst</span></h3>
+                        <p>January 2024 - Present</p>
+                        <ul>
+                            
+                        </ul>
+                        <h3>Infectious Disease Care, Hillsborough, NJ - <span class="text-black-50">Microsoft Power Platforms Developer</span></h3>
+                        <p>January 2022 - January 2024 (2 years)</p>
+                        <ul>
+                            <li>Utilize DevOps methodologies to design, develop, and implement at least five Microsoft Power Platform business applications</li>
+                            <li>Leverage continuous integration/continuous deployment (CI/CD) principles for efficient production and deployment.</li>
+                            <li>Experience encompasses deep familiarity with PowerApps, Power Automate, Sharepoint, PowerBI, and Power Fx, ensuring seamless, scalable solutions.</li>
+                        </ul>
+                        <h3>Kean University, Union, NJ - <span class="text-black-50">Coding Tutor (Code Samurai)</span></h3>
+                        <p>May 2021 - December 2023 (2 years, 7 months)</p>
+                        <ul>
+                            <li>Lead tutoring sessions to advise university students with their coding projects and assignments</li>
+                            <li>Troubleshoot and debug code for three-tiered architecture web applications built using PHP, SQL, and HTML</li>
+                            <li>Familiarity with proper relational database structure and cybersecurity principles</li>
+                        </ul>
+                        <h2>Education<hr></h2>
+                        <h3>Kean University</h3>
+                        <p>September 2019 - December 2023</p>
+                        <ul>
+                            <li>M.S. Computer Information Systems</li>
+                            <ul>
+                                <li>GPA: 3.96</li>
+                            </ul>
+                            <li>B.S. Computer Science</li>
+                            <ul>
+                                <li>Magna Cum Laude Honors (GPA: 3.83)</li>
+                                <li>Dean's List</li>
+                            </ul>
+                        </ul>
+                        <h3>Manville High School</h3>
+                        <p>September 2015 - June 2019</p>
+                        <ul>
+                            <li>High School Diploma</li>
+                            <li>SAT Scores (1380 cumulative)</li>
+                            <ul>
+                                <li>Math: 710</li>
+                                <li>Reading: 670</li>
+                            </ul>
+                        </ul>
+                        <h2>References</h2>
+                        <p>Available upon request.</p>
+                    </div>
+                </div>
+
+                <!-- Projects Section -->
+                <div id="projects-section" style="display:none">
+                    <h3>Projects</h3><br>
+                    <ul id="projects-content" class="list-unstyled justify-content-center">
+                        <li class="project-item content-section mb-3 row g-0">
+                            <!-- Thumbnail Column -->
+                            <div class="col-md-4 mb-4 mb-md-0">
+                                <a href="http://audio-to-midi.alexjfisher.com" class="thumbnail" target="_blank">
+                                    <img src="_assets/AI_Audio_Music_Transcriber.png" alt="Thumbnail 1">
+                                </a>
+                            </div>
+                            <!-- Project Info Column -->
+                            <div class="col-md-8 project-info text-start ps-md-4 d-flex flex-column justify-content-between">
+                                <div class="project-title">Audio to MIDI Transcriber</div>
+                                <div class="project-subtitle">
+                                    A web application that automatically transcribes raw audio to MIDI notation.
+                                </div>
+                                <div class="project-description mt-3">
+                                    Uses machine learning to transcribe audio (.mp3 format) to MIDI notation. 
+                                    <br>
+                                    <br>
+                                    <small>The application is built using Tensorflow, Keras, FastAPI, and Docker.</small>
+                                </div>
+                                <div class="mt-auto">
+                                    <div class="d-flex flex-wrap">
+                                        <a href="https://github.com/alexfishy12/audio_to_midi_transcriber" class="link m-2" target="_blank">
+                                            <i class="fab fa-github fa-2x"></i>
+                                            <div class="icon-title">Github Repo</div> <!-- Clickable title -->
+                                        </a>
+                                        <a href="http://audio-to-midi.alexjfisher.com" class="link m-2" target="_blank">
+                                            <i class="fas fa-play-circle fa-2x"></i>
+                                            <div class="icon-title">Project Demo</div> <!-- Clickable title -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="project-item content-section mb-3 row g-0">
+                            <!-- Project Info Column -->
+                            <div class="col-md-8 project-info text-start pe-md-4 d-flex flex-column justify-content-between">
+                                <div class="project-title">Itinerary Generator</div>
+                                <div class="project-subtitle">
+                                    A web application that helps to plan a day trip in the city using Google Maps API.
+                                </div>
+                                <div class="project-description mt-3">
+                                    Uses Google Maps API to select nearby locations to visit and to calculate most efficient routes between them. Save the itinerary and share it amongst your friends using the generated unique code. 
+                                    <br>
+                                    <br>
+                                    <small>The application is built using Node.js, Google Maps API, JavaScript, and Docker.</small>
+                                </div>
+                                <div class="mt-auto">
+                                    <div class="d-flex flex-wrap justify-content-end">
+                                        <a href="https://github.com/alexfishy12/itineraryGenerator" class="link m-2" target="_blank">
+                                            <i class="fab fa-github fa-2x"></i>
+                                            <div class="icon-title">Github Repo</div> <!-- Clickable title -->
+                                        </a>
+                                        <a href="http://itinerary-generator.alexjfisher.com" class="link m-2" target="_blank">
+                                            <i class="fas fa-play-circle fa-2x"></i>
+                                            <div class="icon-title">Project Demo</div> <!-- Clickable title -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Thumbnail Column -->
+                            <div class="col-md-4 mt-4 mt-md-0">
+                                <a href="http://itinerary-generator.alexjfisher.com" class="thumbnail" target="_blank">
+                                    <img src="_assets/itinerary-generator.PNG" alt="Thumbnail 1">
+                                </a>
+                            </div>
+                        </li>
+                        <!-- Add more projects here -->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
