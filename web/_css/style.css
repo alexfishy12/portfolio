@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+/* Color Pallete */
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --accent-color: rgb(0, 89, 255); 
+    --background-color: rgb(244,242,238);
+    --text-color: rgb(72, 76, 84); 
+    --accent-text-color: rgb(119, 103, 72);
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
+
 html, body {
     height: 100%; /* Ensures that the html and body are full height */
     margin: 0; /* Removes default margin */
@@ -7,7 +21,23 @@ html, body {
 
 body {
     font-family:'Merriweather', serif;
-    background-color: rgb(244,242,238);
+    background-color: var(--background-color);
+}
+
+.muted {
+    color: var(--text-color);
+}
+
+h2 {
+    font-size: 2em;
+    font-weight:500;
+    color: var(--text-color);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--accent-text-color);
+    text-transform:uppercase;
 }
 
 
@@ -23,12 +53,21 @@ body {
                 0 6px 20px rgba(0,0,0,0.1); /* Secondary shadow for additional diffused effect */
 }
 
-.link {  /* Style for the anchor tag */
+.link {
+    color: var(--accent-color);
+    font-weight: bold;
+    transition: color 0.3s ease; /* Adds transition */
+}
+
+/* Optional: Change color on hover for both icon and title */
+.link:hover, .link:hover .icon-title{
+    color: #003c8a; /* Change color on hover */
+}
+
+.icon-link {  /* Style for the anchor tag */
     display: block;
     text-align: center; /* Aligns the icon and text centrally */
-    color: rgb(0, 89, 255); /* Inherits color from parent elements */
     text-decoration: none; /* Removes underline from links */
-    transition: color 0.3s ease; /* Adds transition */
 }
 
 .icon-title {  /* Style for the title under the icon */
@@ -36,10 +75,6 @@ body {
     margin-top: 8px; /* Space between icon and title */
 }
 
-/* Optional: Change color on hover for both icon and title */
-.link:hover, .link:hover .icon-title {
-    color: #003c8a; /* Change color on hover */
-}
 
 .content-section {
     background-color: #f8f8f8; /* Off-white background */
