@@ -32,9 +32,6 @@ A website portfolio to show off my skills through various projects I've done bot
 1. Clone the repo: `git clone https://github.com/alexfishy12/portfolio.git`
 2. Use a localhosting tool such as XAMPP or NGINX to host locally and run the website on the browser.
 
-## License
-*State the license under which your project is available.*
-
 ## Contact
 - Alexander J. Fisher
   - **Email**: alexfisher0330@gmail.com
