@@ -5,4 +5,4 @@ services:
       context: ./web
       dockerfile: Dockerfile
     ports:
-      - 80:80 # map port 80 on host to port 80 on container
+      - 1099:80 # map port 80 on host to port 80 on container
