@@ -17,8 +17,9 @@
 A website portfolio to show off my skills through various projects I've done both in an academic setting and in my own free time.
 
 ## Visuals
-*Insert images or gifs showing your project in action. Consider before/after shots, workflows, or demos.*
-
+<p float="left">
+  <img src="https://raw.githubusercontent.com/alexfishy12/portfolio/main/web/_assets/portfolio_screenshot.png" width="500" />
+</p>
 ## Technologies
 - Front-end: HTML, CSS (with Bootstrap), Javascript
 - Back-end: Linux OS, hosted on Digital Ocean Droplet (Virtual Private Server)
