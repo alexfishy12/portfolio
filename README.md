@@ -20,6 +20,7 @@ A website portfolio to show off my skills through various projects I've done bot
 <p float="left">
   <img src="https://raw.githubusercontent.com/alexfishy12/portfolio/main/web/_assets/portfolio_screenshot.png" width="500" />
 </p>
+
 ## Technologies
 - Front-end: HTML, CSS (with Bootstrap), Javascript
 - Back-end: Linux OS, hosted on Digital Ocean Droplet (Virtual Private Server)
