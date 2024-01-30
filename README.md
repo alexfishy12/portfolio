@@ -16,7 +16,7 @@ A website portfolio to show off my skills through various projects I've done bot
 
 ## Visuals
 <p float="left">
-  <img src="https://raw.githubusercontent.com/alexfishy12/portfolio/main/web/_assets/portfolio_screenshot.png" width="500" />
+  <img src="https://raw.githubusercontent.com/alexfishy12/portfolio/main/web/_assets/portfolio_screenshot.png" width="100%" />
 </p>
 
 ## Technologies
